@@ -1,0 +1,101 @@
+Mejoras interfaz de Usuario GNU PSPP
+====================================
+
+→ Alinear a la izquierda columnas que tengas etiquetas al activar la función.
+→ asociar iconos a funciones de forma selectiva.
+
+
+Añadir iconos
+=============
+
+→ Iconos para tipos mime (alto contraste)
+→ Icono de aplicación (alto contraste)
+
+
+Barra de herramientas
+=====================
+
+Barra de herramientas: vista de datos y vista de variables: IBM SPSS 21
+
+abrir documento | guardar documento | imprimir | recuperar cuadros de diálogo recientes | deshacer rehacer | ir al caso | ir a la variable | variables | ejecutar estadísticos descriptivos | buscar | insertar casos | insertar variables | dividir archivos | ponderar casos | seleccionar casos | etiquetas de valor | utilizar conjuntos de variables | mostrar todas las variables | corregir ortografía
+
+Barra de herramientas, Editor de sintaxis: IBM SPSS 21
+
+
+columna "rol" (propiedades de variables.
+entrada		flecha
+objetivo		diana
+ambos			flecha+diana	
+ninguna		cazafantasmas
+partición	
+dividir		split-file
+
+Roles
+
+Some dialogs support predefined roles that can be used to pre-select variables for analysis. When you open one of these dialogs, variables that meet the role requirements will be automatically displayed in the destination list(s). Available roles are:
+
+Input. The variable will be used as an input (e.g., predictor, independent variable).
+
+Target. The variable will be used as an output or target (e.g., dependent variable).
+
+Both. The variable will be used as both input and output.
+
+None. The variable has no role assignment.
+
+Partition. The variable will be used to partition the data into separate samples for training, testing, and validation.
+
+Split. Included for round-trip compatibility with IBM® SPSS® Modeler. Variables with this role are not used as split-file variables in IBM® SPSS® Statistics.
+
+• By default, all variables are assigned the Input role. This includes data from external file formats and data files from versions of SPSS Statistics prior to version 18.
+
+• Role assignment only affects dialogs that support role assignment. It has no effect on command syntax.
+
+1. User Interface
+=================
+
+1.1 Features already included in SPSS
+*************************************
+
+→ En PSPP, en la función variables (menú utilidades), no se puede escoger más de una variable (con tecla control o shift)
+
+No incluida en SPSS
+===================
+→ En PSPP, en la función variables (menú utilidades), sería interesante incluir una función para: imprimir o exportar (texto plano) o copiar una o más variables.
+Esto puede ser especialmente útil para confeccionar fácilmente una guía para rellenar un formulario o cuestionario (valores de etiquetas) o la revision de una estructura de datos por parte del usuario.
+
+Papeles
+
+Algunos cuadros de diálogo admiten papeles predefinidos que se pueden utilizar para preseleccionar variables para el análisis. Cuando abre uno de estos cuadros de diálogo, las variables que cumplen los requisitos de papeles se muestran automáticamente en la lista(s) de destinos. Los papeles disponibles son:
+
+Entrada. La variable se utilizará como una entrada (por ejemplo, predictor, variable independiente).
+
+Objetivo. La variable se utilizará como una salida u objetivo (por ejemplo, variable dependiente).
+
+Ambos. La variable se utilizará como entrada y salida.
+
+Ninguno. La variable no tiene asignación de función.
+
+Partición. La variable se utilizará para dividir los datos en muestras diferentes para entrenamiento, prueba y validación.
+
+Segmentar. Se incluye para compatibilidad global con IBM® SPSS® Modeler. Las variables con este papel no se utilizan como variables de archivos divididos en IBM® SPSS® Statistics.
+
+• Por defecto, todas las variables se asignan al papel Input. Se incluyen los datos de formatos de archivo externos y los archivos de datos creados en versiones anteriores de SPSS Statistics anteriores a la versión 18.
+
+• La asignación de papeles sólo afecta a los cuadros de diálogo que admiten asignaciones de papeles. No tiene ningún efecto en la sintaxis de comandos.
+
+2. Usability
+============
+
+1.1 Features already included in SPSS
+*************************************
+
+Improved control selecting multiple items in PSPPire (combinations "Ctrl+click"    
+and "SHIFT+arrowup/down")
+
+Others
+======
+
+→ Configurar fuente en archivo de salida (impresión) → al estilo gedit
+→ Opción de no cortar tablas al imprimir
+
+

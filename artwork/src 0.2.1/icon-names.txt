@@ -1,0 +1,226 @@
+ACTIONS
+=======
+
+Menu					Icon name
+****					*********	
+
+File|New				file-new-data
+
+File|New|Syntax				file-syntax-data
+
+File|New|Data				file-system-data
+
+File|Open...				file-open-data
+
+File|Import Data			file-import-data
+
+File|Export Data			file-export-data
+
+File|Save				file-save-data
+
+File|Save As...				file-save-as
+
+File|Print				file-print
+
+File|Rename Dataset...			file-rename-data-set
+
+File|Display Data File Information	file-display-information
+
+File|DDFI|Working File...		display-information-working-file
+
+File|DDFI|External File...		display-information-external-file
+
+File|Recently Used Data/Files		file-recently-used
+
+File|Quit				file-quit
+
+
+Edit|Insert Variable			edit-insert-variable	
+
+Edit|Insert Cases			edit-insert-case
+
+Edit|Go To Variable			edit-go-to-variable
+
+Edit|Go To Case				edit-go-to-case
+
+Edit|Cut				edit-cut
+
+Edit|Copy				edit-copy
+
+Edit|Paste				edit-paste
+
+Edit|Delete				edit-delete
+
+Edit|Undo				edit-undo
+
+Edit|Redo				edit-redo
+
+Edit|Select All				edit-select-all
+
+Edit|Clear Variables/Cases		edit-clear
+
+Edit|Find...				edit-find
+
+
+View|Font...				view-font
+
+View|Value Labels			view-value-labels
+
+
+Data|Sort Cases...			data-sort-cases *(data-sort-ascending and data-sort-descending are formatting options)
+
+Data|Transpose...			data-transpose
+
+Data|Aggregate				data-aggregate
+
+Data|Split File				data-split-file
+
+Data|Select Cases			data-select-cases
+
+Data|Weight Cases			data-weight-cases
+
+
+Run|All					run-all
+
+Run|Selection				run-selection
+
+Run|Current Line			run-current-line
+
+Run|To End				run-to-end
+
+
+Transform|Compute			transform-compute
+
+Transform|Count				transform-count
+
+Transform|Rank Cases			transform-rank-cases
+
+Transform|Automatic Recode		transform-automatic-recode
+	
+Transform|Recode Same Variables		transform-in-to-same-variables
+
+Transform|Recode Different Variables	transform-in-to-different-variables
+
+Transform|Run Pending transforms	transform-run-pending
+
+
+Analyze|Descriptive Statistics		analyze-descriptive-statistics
+
+Analyze|Compare Means			analyze-compare-means
+
+Analyze|Univariate Analysis		analyze-univariate-analysis
+
+Analyze|Bivariate Correlation		analyze-bivariate-correlation
+
+Analyze|K-mean Cluster			analyze-kmeans-cluster
+
+Analyze|Factor Analysis			analyze-factor-analysis
+
+Analyze|Realiability			analyze-realiability
+
+Analyze|Regression...			analyze-regression
+
+Analyze|Non-Parametric Statistics	analyze-non-parametric-statistics
+
+Analyze|ROC Curve			analyze-roc-curve
+
+
+Utilities|Variables...			utilities-variables
+
+Utilities|Data File Comments		utilities-data-file-comments
+
+
+Windows|Minimize All Windows            windows-minimize-all
+
+Windows|Split                           windows-split
+
+
+Help|Reference Manual                   help-reference-manual
+
+Help|About                              help-about
+
+
+APPS
+====
+
+PSPPire					pspp
+
+About Logo				pspp *Use the application icon (scalable).
+
+
+CATEGORIES
+
+Variable				Icon name
+********				*********
+
+Align|Left				align-left
+
+Align|Center				align-center
+
+Align|Right				align-right
+
+
+Measure|Scale				measure-scale
+
+Measure|Ordinal				measure-ordinal
+
+Measure|Nominal				measure-nominal
+
+Measure|Date Scale			measure-date-scale
+
+Measure|Date Nominal			measure-date-nominal
+
+Measure|Date Ordinal			measure-date-ordinal
+
+Measure|Time Scale			measure-time-scale
+
+Measure|Time Nominal			measure-time-nominal
+
+Measure|Time Ordinal			measure-time-ordinal
+
+Measure|String Nominal			measure-string-nominal
+
+Measure|String Ordinal			measure-string-ordinal
+
+Measure|Currency Scale			measure-currency-scale
+
+Measure|Currency Nominal		measure-currency-nominal
+
+Measure|Currency Ordinal		measure-currency-ordinal
+
+
+Role|Input				role-input
+
+Role|Target				role-target
+
+Role|Both				role-both
+
+Role|None				role-none
+
+Role|Partition				role-partition
+
+Role|Split				role-split
+
+
+MIMETYPES
+=========
+
+File type				Icon name
+*********				*********
+
+System file				application-x-spss-sav
+
+Portable file				application-x-spss-por
+
+Syntax file				application-x-spss-sps
+
+
+Extra
+=====
+
+Function				Icon name
+********				*********
+
+Warning dialog				dialog-warning
+
+Recent dialog				dialog-recent
